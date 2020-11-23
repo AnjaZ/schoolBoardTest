@@ -1,0 +1,4 @@
+DBNAME=schoolboardtest
+SERVER=localhost
+USERNAME=root
+PASSWORD=
