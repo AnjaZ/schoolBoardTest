@@ -1,10 +1,11 @@
 <?php
-  include "config/connection.php";
+  
+  require "vendor/autoload.php";
 
 	if(isset($_GET['student'])){
 		
-		include "models/studentResult.php";
-		
+		$result = new SchoolBoard\StudentResult();
+		echo $result->id($_GET['student']);
 	} 
  ?>
 
